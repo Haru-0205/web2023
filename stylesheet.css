@@ -1,7 +1,22 @@
 body{
-    font-family: "Noto Sans";
+    font-family: "Noto Sans", math;
 }
 .midashi{
-    color: darkblue;
     background-color: aliceblue;
+}
+.title{
+    background-color: beige;
+}
+.name{
+    background-color: beige;
+}
+.week{
+    background-color: azure;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+h3{
+    color: navy;
 }
