@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <title>伝言板</title>
+  <meta charset="utf-8">
+
+  <script>
+    function dengon(){
+      dengonarea = document.getElementById("dengonarea")
+      inputarea = document.getElementById("inputarea")
+      if(dengonarea.value === ""){
+        alert("内容を入力してください");
+      }else{
+        dengonarea.innerText = inputarea.value;
+        alert("内容を保存しました");
+      }
+    }
+  </script>
+
+</head>
+<body>
+  伝言板
+  <p id="dengonarea">伝言はまだありません</p>
+  <input title="inputarea" id="inputarea">
+  <button onclick=dengon()>セット</button>
+  
+</body>
+</html>
